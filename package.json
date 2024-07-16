@@ -1,0 +1,49 @@
+{
+  "packageManager": "yarn@1.22.22",
+  "name": "app",
+  "private": true,
+  "version": "0.1.0",
+  "babel": {
+    "presets": [
+      "./node_modules/shakapacker/package/babel/preset.js",
+      "@babel/preset-react"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.24.8",
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@babel/runtime": "^7.24.8",
+    "@types/babel__core": "^7.20.5",
+    "@types/webpack": "^5.28.5",
+    "babel-loader": "^8.3.0",
+    "compression-webpack-plugin": "^9.2.0",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "mini-css-extract-plugin": "^2.9.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "react_ujs": "^3.2.1",
+    "shakapacker": "8.0.0",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "typescript": "^5.5.3",
+    "webpack": "^5.93.0",
+    "webpack-assets-manifest": "^5.2.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.10.0"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "webpack-dev-server": "^4.15.2"
+  }
+}

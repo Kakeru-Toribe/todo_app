@@ -1,0 +1,16 @@
+current directory: /Users/toribekakeru/todo_app/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+/Users/toribekakeru/.rbenv/versions/2.7.1/bin/ruby -I /Users/toribekakeru/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20240715-60673-z283un.rb extconf.rb
+creating Makefile
+
+current directory: /Users/toribekakeru/todo_app/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/toribekakeru/todo_app/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/toribekakeru/todo_app/vendor/bundle/ruby/2.7.0/gems/racc-1.8.0/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240715-60673-sfcsz9/racc
