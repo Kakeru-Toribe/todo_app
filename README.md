@@ -5,7 +5,7 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 
   ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-darwin20]
 
 * System dependencies
@@ -22,7 +22,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* アプリの立ち上げ
+* アプリの立ち上げ 
   rails
   ```
     bundle exec puma
@@ -33,7 +33,7 @@ Things you may want to cover:
     ./bin/shakapacker-dev-server
   ```
 
-* references
+* references 
   https://github.com/reactjs/react-rails/blob/master/docs/get-started.md#transform-plugin-options
   
 
